@@ -32,11 +32,11 @@ const About = () => {
       <div className='flex flex-col justify-around'>
         <div className='sm:px-16 px-2'>
           <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
-          <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Varsha Awasthi, a  Computer Science and Engineering student🎓 with a passion for crafting robust systems and captivating web applications. As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/nithin-manda-728019214/' target='_blank'>Software developer</a> I specialize in MERN stack🚀. </p>
+          <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Varsha Awasthi, a third year Computer Science and Engineering student🎓 with a passion for crafting robust systems and captivating web applications. As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/nithin-manda-728019214/' target='_blank'>Software developer</a> I specialize in MERN stack🚀. </p>
           <br/>
           
           <ButtonLink
-            url='https://drive.google.com/file/d/1CeyahKGwpaKhcyOTTFZ1xNn4UpjpcF3y/view?usp=sharing'
+            url='https://drive.google.com/file/d/1_cqKFfinJC1ZoQweGRVy-z_YYX0iC5tI/view?usp=sharing'
             text='View Resume →'
             padding={`p-3`}
           />

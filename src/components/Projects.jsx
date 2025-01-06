@@ -2,6 +2,7 @@
 import React from "react";
 import gemini from '../assets/Gemini.png'
 import copeople from '../assets/copeople.png'
+import rename from '../assets/Rename.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
@@ -10,12 +11,15 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             {title=='Gemini Clone' && <a href="https://gemini-flax-kappa.vercel.app/">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={gemini} alt="" />
             </a>}
+            {title=='Officers Duty Roaster' && <a href="https://ioclroaster-varsha-awasthis-projects.vercel.app/">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={rename} alt="" />
+            </a>}
             {/* {title=='Co People' && <a href="https://gemini-flax-kappa.vercel.app/">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
             </a>} */}
             <div className="p-4 sm:p-6">
                 <a href="#">
-                    <h5 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
+                    <h5 className="text-2xl font-extrabold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-pink-500">{title}</h5>
                 </a>
                 <p className="font-normal text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400">{description}</p>
             </div>
@@ -50,6 +54,7 @@ const Projects = () => {
                         git={item.git}
                         technologies={item.technologies}
                     />
+                    
                 ))}
             </div>
             <Footer/>
@@ -71,7 +76,14 @@ export const project = [
         description:'Gemini Clone has been created using using React JS, tailwind CSS and Generative API of Gemini. This clone has feature of retaining previous responses which helps users to see their serach history.',
         image: {copeople},
         git:"https://github.com/varshaa-7/Gemini",
-        technologies:[ 'React JS', 'tailwind CSS, Generative API']
+        technologies:[ 'React JS', 'tailwind CSS', 'Generative API']
+    },
+    {
+        title:'Officers Duty Roaster',
+        description:'Officers duty roater is the employee management system in which shifts of employee changes automatically after one week. It has option to maintain leaves, leaves date, reason, their post, and also some special instructions.',
+        image: {rename},
+        git:"https://github.com/varshaa-7/Employee_front",
+        technologies:[ 'React JS', 'MongoDb', 'NodeJs']
     }
 ]
 

@@ -21,7 +21,7 @@ export const experiences = [
     {
         'company': 'IndianOil Corporation Limited',
         'role': 'Summer Intern',
-        'duration': 'June 2024 - Present',
+        'duration': 'June 2024 - July 2024',
         'logo': 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Indian_Oil_Logo.svg',
         'points': [
             'Involved in dynamic contributions to web and mobile📱 development projects, actively influencing and improving project outcomes.',
@@ -30,6 +30,18 @@ export const experiences = [
             'Implemented data security for the company’s product to provide role-based access control ⚙️.'
         ],
         'url': 'https://iocl.com/',
+    },
+    {
+        'company': 'Kode Bloom Technology and Services Private Limited',
+        'role': 'Full Stack Developer Intern',
+        'duration': 'Oct 2024 - Present',
+        'logo': 'https://kodebloom.com/wp-content/uploads/2024/11/image-5-1024x1024.png',
+        'points': [
+            'Leading the development of a company website designed to efficiently handle over 500 user.',
+            ' Working on a School Management System that streamlines the management of data for students, teachers, and administrators.',
+            
+        ],
+        'url': 'https://kodebloom.com/',
     },
     // {
     //     'company': 'AT & T',

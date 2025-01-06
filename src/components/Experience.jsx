@@ -51,6 +51,7 @@ const Experience = () => {
               ))}
             </ul>
           </VerticalTimelineElement>
+          
         ))}
       </VerticalTimeline>
       <Footer/>
