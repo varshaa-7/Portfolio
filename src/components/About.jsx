@@ -31,7 +31,7 @@ const About = () => {
     <div className='bg-black h-full w-full text-white sm:flex sm:justify-around about py-12 mt-8 overflow-x-hidden' id='about'>
       <div className='flex flex-col justify-around'>
         <div className='sm:px-16 px-2'>
-          <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
+          <h2 className='text-5xl font-extrabold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-pink-500'>Introduction</h2>
           <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Varsha Awasthi, a third year Computer Science and Engineering student🎓 with a passion for crafting robust systems and captivating web applications. As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/nithin-manda-728019214/' target='_blank'>Software developer</a> I specialize in MERN stack🚀. </p>
           <br/>
           

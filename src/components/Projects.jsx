@@ -4,6 +4,8 @@ import gemini from '../assets/Gemini.png'
 import copeople from '../assets/copeople.png'
 import rename from '../assets/Rename.png'
 import Footer from './Footer'
+import passo from '../assets/Passo.png'
+import quizy from '../assets/Quizzy.png'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
@@ -13,6 +15,13 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             </a>}
             {title=='Officers Duty Roaster' && <a href="https://ioclroaster-varsha-awasthis-projects.vercel.app/">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={rename} alt="" />
+            </a>}
+            {title=='Quizzy' && <a href="https://stirring-rolypoly-40cec2.netlify.app/login">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={quizy} alt="" />
+            </a>}
+
+            {title=='Password Manager' && <a href="https://fancy-marigold-74a096.netlify.app/">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={passo} alt="" />
             </a>}
             {/* {title=='Co People' && <a href="https://gemini-flax-kappa.vercel.app/">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
@@ -76,7 +85,7 @@ export const project = [
         description:'Gemini Clone has been created using using React JS, tailwind CSS and Generative API of Gemini. This clone has feature of retaining previous responses which helps users to see their serach history.',
         image: {copeople},
         git:"https://github.com/varshaa-7/Gemini",
-        technologies:[ 'React JS', 'tailwind CSS', 'Generative API']
+        technologies:[ 'React JS', 'Tailwind CSS', 'Generative API']
     },
     {
         title:'Officers Duty Roaster',
@@ -84,6 +93,21 @@ export const project = [
         image: {rename},
         git:"https://github.com/varshaa-7/Employee_front",
         technologies:[ 'React JS', 'MongoDb', 'NodeJs']
+    },
+    {
+        title:'Quizzy',
+        description:'Quizzy is a test platform with an admin to manage tests (create, edit, delete) and download results as Excel sheets. Students can attempt quizzes, with fullscreen mode and auto-submission after two tab-switch warnings.',
+        image: {rename},
+        git:"https://github.com/varshaa-7/Employee_front",
+        technologies:[ 'React JS','MongoDb','NodeJs', 'Tailwind CSS']
+    }
+    ,
+    {
+        title:'Password Manager',
+        description:'Passoo helps users store and manage website credentials, like usernames and passwords. Users can easily add, edit, or delete stored passwords and can also toggle the visibility of their passwords for easy viewing or editing.',
+        image: {rename},
+        git:"https://github.com/varshaa-7/Employee_front",
+        technologies:[ 'React JS', 'Tailwind CSS']
     }
 ]
 
